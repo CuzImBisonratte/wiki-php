@@ -21,7 +21,6 @@ body {
 
 main {
     grid-area: main;
-    max-width: 1320px;
 }
 
 footer {

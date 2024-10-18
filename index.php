@@ -18,15 +18,23 @@
         <div class="menu__item">
             <div class="menu__itemgroup">
                 <div class="menu__item menu__itemgroup__title">
-                    <a class="menu__link" href="/endpoints">Endpoints</a>
+                    <a class="menu__link" href="/?e=endpoints">Endpoints</a>
                 </div>
                 <div class="menu__item menu__itemgroup__item menu__item--active">
-                    <a class="menu__link" href="/endpoints/">Classes</a>
+                    <a class="menu__link" href="/?e=endpoints_classes">Classes</a>
                 </div>
             </div>
         </div>
     </div>
     <main>
+        <div class="container">
+            <article>
+                <?php
+                include $_SERVER['DOCUMENT_ROOT'] . '/res/php/locationGenerator.php';
+                generateLocation($_GET['e']);
+                ?>
+            </article>
+        </div>
     </main>
     <footer></footer>
 </body>
