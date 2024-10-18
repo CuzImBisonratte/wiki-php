@@ -21,3 +21,6 @@ For the commit messages I use the standart of gitmoji:
 ## 3rd party libraries & Licenses
 
 -   Icons: [Heroicons](https://heroicons.com/) ([MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE))
+-   Markdown parser: [Parsedown](https://parsedown.org/) ([MIT](https://github.com/erusev/parsedown/blob/master/LICENSE.txt))
+-   Markdown parser extension: [ParsedownExtended](https://github.com/BenjaminHoegh/ParsedownExtended) ([MIT](https://github.com/BenjaminHoegh/ParsedownExtended/blob/main/LICENSE.md))
+-   Markdown parser extension: [parsedown-extra](https://github.com/erusev/parsedown-extra) ([MIT](https://github.com/erusev/parsedown-extra/blob/master/LICENSE.txt))
