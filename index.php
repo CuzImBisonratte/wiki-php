@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/res/html/head.html'; ?>
+    <?php
+    include $_SERVER['DOCUMENT_ROOT'] . '/res/html/head.html';
+    include $_SERVER['DOCUMENT_ROOT'] . '/res/php/noLogin.php';
+    ?>
 </head>
 
 <body>

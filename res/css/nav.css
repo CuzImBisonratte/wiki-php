@@ -38,8 +38,7 @@
     white-space: nowrap;
 }
 
-#navbar__login,
-#navbar__settings {
+.navbar__item:has(svg) {
     align-items: center;
     border-radius: 50%;
     display: flex;
@@ -52,9 +51,19 @@
     cursor: pointer;
     font-family: inherit;
     padding: 0;
+    margin-right: 0.5rem;
 }
 
-#navbar__login:hover,
-#navbar__settings:hover {
+.navbar__item svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+.navbar__item:has(svg):hover {
+    background-color: #444950;
+}
+
+.navbar__item:hover svg {
     background-color: #444950;
 }
