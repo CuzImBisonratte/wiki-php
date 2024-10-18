@@ -4,6 +4,8 @@ A simple wiki software written in PHP.
 
 Interface design is inspired by [docusaurus](https://docusaurus.io/).
 
+It is designed to be fully compatible without JavaScript, but if JavaScript is enabled, it will enhance the user experience a bit.
+
 ## About this software
 
 ### Commit messages
